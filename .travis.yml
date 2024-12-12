@@ -9,7 +9,7 @@ before_install:
 install:
   - python3 -m pip install --upgrade pip
   - python3 -m pip install telebot flask pymongo aiohttp 
-  - async-timeout==3.0.1
+  
   
 
 script:
