@@ -6,7 +6,8 @@ python:
 before_install:
   - sudo apt-get update
 
-install:
+install: 
+  - travis_wait 59 mvn install
   - python3 -m pip install --upgrade pip
   - python3 -m pip install telebot flask pymongo aiohttp
 
